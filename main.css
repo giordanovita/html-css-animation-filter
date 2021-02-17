@@ -1,0 +1,93 @@
+/* soluzione ex1 */
+.ex-1-square{
+ transition: background 2s;
+}
+
+.ex-1-square:hover{
+ background:red;
+ transition: background 2s;
+}
+
+/* soluzione ex2 */
+.ex-2-square{
+  transition: width 4s;
+}
+
+.ex-2-square:active{
+  width:100%;
+  transition: width 4s;
+}
+
+/* soluzione ex3 */
+.ex-3-square{
+  transition: border-radius 2s;
+}
+
+.ex-3-square:hover{
+  border-radius: 100%;
+  transition: border-radius 2s;
+}
+
+/* soluzione ex4 */
+.ex-4-square{
+  transition: opacity 2s;
+}
+
+.ex-4-square:hover{
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+/* soluzione ex5 */
+.ex-5-square{
+  transition:all 2s;
+}
+
+.ex-5-square:hover{
+  transition:all 2s;
+  transform:  scale(2);
+}
+
+.ex-5-square:active{
+  width: 20px;
+  height: 20px;
+  transition: all 2s;
+}
+
+/* soluzione ex6 */
+.ex-6-img:hover{
+  filter: grayscale(0.9);
+}
+
+/* soluzione ex7 */
+.ex-7-img{
+  transition: all 2s;
+}
+
+.ex-7-img:hover{
+  filter: sepia(0.6) saturate(0.9);
+  transition: all 2s;
+}
+
+/* soluzione ex8 */
+.ex-8-img{
+  transition:all 2s;
+}
+
+.ex-8-img:hover{
+  border-radius: 5%;
+  filter:sepia(0.7) contrast(0.9);
+  transition:all 2s;
+}
+
+/* soluzione ex9 */
+.ex-9-img{
+  transition:all 2s;
+}
+
+.ex-9-img:hover{
+  border-radius: 5%;
+  filter:sepia(0.7) contrast(0.9);
+  transform:  scale(1.5);
+  transition:all 2s;
+}
